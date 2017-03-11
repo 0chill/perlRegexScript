@@ -1,0 +1,5 @@
+hello@gmail.com
+hi@yahoo.com
+goodemail@yahoo.com
+emailtest@gmail.com.uk
+emailshouldwork@school.edu
