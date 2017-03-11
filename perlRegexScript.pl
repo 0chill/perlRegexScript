@@ -4,6 +4,11 @@ use strict;
 use warnings;
 
 sub regexForGoodEmails() {
+	#This function reads the file known_good.txt
+	#it makes sure that it has less than 255 characters
+	#it does some basic regex to see that the emails
+	#go through it
+	#it also adds 1 if an email on the file doesn't work
         my $valid_bad = 0;
 
         my $filename = 'known_good.txt';
@@ -29,6 +34,11 @@ sub regexForGoodEmails() {
 
 
 sub regexForBadEmails() {
+	#This function reads the file known_bad.txt
+	#it makes sure that it has less than 255 characters
+	#it does some basic regex to see that the emails
+	#won't go through
+	#it also adds 1 if a bad email goes through
         my $valid_bad = 0;
 
         my $filename = 'known_bad.txt';
